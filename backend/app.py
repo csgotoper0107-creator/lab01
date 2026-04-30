@@ -1,5 +1,5 @@
 from apiflask import APIFlask
-from backend.api.routes import register_routes
+from api.routes import register_routes
 
 app = APIFlask(
     __name__,
